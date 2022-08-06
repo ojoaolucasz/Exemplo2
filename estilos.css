@@ -1,0 +1,101 @@
+/*Comentário no CSS*/
+:root{
+    --corprincipal: rgb(12, 172, 39);
+    --corsecundaria: rgb(237, 228, 247);
+    --corcinza: rgb(161, 148, 148);
+}
+
+body {
+    color: var(--corcinza);
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: var(--corprincipal);
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-image: url("./images/linguagens-front-end.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+article{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px
+}
+
+#html:hover{
+    background-color: rgba(255, 136, 0, 0.488);
+}
+#css:hover{
+    background-color: rgba(0, 51, 255, 0.462);
+}
+#js:hover{
+    background-color: rgba(255, 225, 0, 0.488);
+}
+
+h3{
+    color: var(--corprincipal);
+}
+
+p{
+    background-color: var(--corsecundaria);
+    padding: 15px;
+    text-align: justify;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--corprincipal);
+    border-radius: 10px; /*Deixa as bordas do contorno arredondadas*/
+}
+
+article > h4{
+    color: var(--corprincipal);
+    border-bottom: 2px solid var(--corprincipal);
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--corsecundaria);
+    color: var(--corprincipal);
+    padding: 3px;
+    margin-right: 5px;
+}
+
+a:hover/*Altera quando passar o mouse em cima*/{
+    color: var(--corsecundaria);
+    background-color: var(--corprincipal);
+    font-size: 10pt;
+}
+
+footer{
+    background-color: var(--corsecundaria) ;
+    height: 80px;
+    text-align: center;
+}
+
+/* .laranja {
+    color: orange;
+}
+
+.azul {
+    color: blue;
+}
+
+.amarelo{
+    color: rgb(245, 245, 0)
+} */
